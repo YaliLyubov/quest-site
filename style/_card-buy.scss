@@ -1,0 +1,34 @@
+.card_buy {
+    width: 260px;
+    padding: 20px 21px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.buy_block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.buy_block-text {
+  color: rgba($color: #383838, $alpha: 0.8);
+
+}
+.buy_block-images {
+    justify-content: space-between;
+}
+
+.buy_link{
+    display: inline-block;
+    color:#F77833;
+}
+.btn_buy {
+    font-size: 16px;
+    font-weight: 500;
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

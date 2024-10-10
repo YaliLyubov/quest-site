@@ -1,0 +1,90 @@
+.reviews{
+    margin-top: 48px;
+    padding-bottom: 24px;
+}
+.review_title {
+    width:31%;
+    color: #424242;
+    font-weight: 900;
+    font-size: 36px;
+}
+.review_badge{
+    font-size: 14px;
+    top: 0;
+    right: 0;
+}
+.reviews_row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: nowrap;
+    height: 480px;
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-margin-top: 16px;
+}
+.reviews_row::-webkit-scrollbar{
+    height: 15px;
+}
+.reviews_row::-webkit-scrollbar-thumb {
+    background-color: #A8A8A8;    
+    border-radius: 20px;       
+    
+  }
+.card_reviews{
+    width: 100%;
+    height: 100%;
+}
+.review-card_body{
+    padding: 30px 24px 16px;
+}
+.card_date {
+    color: #868686;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+.card_name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #383838;
+    margin-bottom: 6px;
+}
+.card_stars {
+    margin-bottom: 16px;
+}
+.review-card_title{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #383838;
+}
+.progress_reviews{
+    margin-top: 16px;
+    --bs-progress-bg: #DDDDDD;
+    padding-left: 0;
+}
+.progress-bar{
+    --bs-progress-bar-bg: #A8A8A8;
+}
+.btn-orange{
+    color: #fff;
+    background-color: #F77833;
+}
+.btn_reviews{
+    display: block;
+    width: 437px;
+    margin: 0 auto;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: #F77833;
+    opacity: 0.8;
+}
+

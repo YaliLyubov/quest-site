@@ -1,0 +1,113 @@
+
+@media (max-width: 360px) {
+    .navbar-toggler{
+        order: -1;
+    }
+    .breadcrumb_nav{
+        display: none;
+    } 
+    .row > .col-md-9{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card_image-block{
+      order: -1;
+    }
+    .card_image {
+        display: none;
+    }
+    .card_image-block .mobile-badge {
+        display: flex;
+        position: absolute;
+        top: 6px;
+        left: 6px;
+       padding: 4px 10px;
+       font-size: 10px;
+       color: #383838;
+       background-color: rgba($color: #fff, $alpha: 0.6);
+    }
+    .card_image-block .card-image-mobile {
+        display: flex;  
+    }
+    .col-md-3 .card_buy{
+        display: none;
+    }
+    .card-body{
+        padding: 12px;
+    }
+    .col-sm-12 .card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+    .card-body .main_card-title{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .card-body  .tags{
+        margin-top: 0;
+    }
+    .tags_list{
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 0;
+    }
+    .tag_item {
+        font-weight: 500;
+    }
+    .main_card-text{
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .reviews {
+        .review_title{
+            width: 100%;
+            font-size: 24px;
+            .review_badge {
+                font-size: 13px;
+                font-weight: 400;
+                top: 96%;
+                right: 88%;
+            }
+        }
+        .reviews_row{
+            width: 100%;
+            height: 480px;
+            overflow-y: hidden;
+            // height: 1000px;
+            gap: 10px;
+        }
+        .card_reviews{
+            height: 50%;
+        }
+        .review-card_body{
+            padding: 30px 20px 16px;
+        }
+        .card_name{
+            font-size: 14px;
+        }
+        .review-card_title {
+            font-size: 18px;
+        }
+        .btn_reviews{
+            width: 100%;
+            margin-bottom: 24px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        .btn_buy {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 16px 24px;
+        }
+    }
+    .reviews .col-12 .card-body {
+        gap: 10px;
+    }
+}

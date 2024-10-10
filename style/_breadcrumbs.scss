@@ -1,0 +1,21 @@
+.breadcrumb_nav{
+    margin-bottom: 32px;
+    position: relative;
+}
+.breadcrumb{
+    position: relative;
+}
+.breadcrumb-item{
+    font-size: 14px;
+    color:#424242;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    --bs-breadcrumb-divider: url('/image/breadcrumbs-icon.svg');
+    position: absolute;
+   left: 7%;
+   bottom: 2px;
+}
+.breadcrumb-item:not(:first-of-type){
+    padding-left: 30px;
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Квестикс</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"
+    />
+    <script defer src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-body-light">
+        <div class="container header_wrapper">
+          <a class="navbar-brand" href="#">
+            <img src="./image/logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Переключатель навигации"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarHeader">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link header_link d-flex flex-column align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="nav-link_img"
+                    src="./image/contact-icon.svg"
+                    alt=""
+                  />
+                  Контакты
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header_link d-flex flex-column align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="nav-link_img"
+                    src="./image/blog-icon.svg"
+                    alt=""
+                  />
+                  Блог
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header_link d-flex flex-column align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="nav-link_img"
+                    src="./image/account-icon.svg"
+                    alt=""
+                  />
+                  Заказы
+                </a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form> -->
+          </div>
+
+          <!-- mobile header -->
+          <a href="#" class="nav-link">
+            <img class="nav-link_img" src="./image/account-icon.svg" alt="" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main bg-body-secondary">
+      <div class="container">
+        <nav class="breadcrumb_nav pt-4">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Главная</li>
+            <li class="breadcrumb-item" aria-current="page">Каталог</li>
+          </ol>
+        </nav>
+
+        <section class="content">
+          <div class="row">
+            <div class="col-md-9 col-sm-12">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 main_card">
+                    <div class="card-body">
+                      <h3 class="card-title main_card-title">
+                        Стрелы Амура, 18+
+                      </h3>
+                      <div class="tags">
+                        <ul class="tags_list ps-0">
+                          <li class="tag_item bg-body-secondary">квест</li>
+                          <li class="tag_item bg-body-secondary">
+                            для 2 человек
+                          </li>
+                          <li class="tag_item bg-body-secondary">для дома</li>
+                          <li class="tag_item bg-body-secondary">
+                            сложность 7/10
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="card-text main_card-text">
+                        Романтический квест по поиску подарка для второй
+                        половинки: мужа, жены, парня или девушки. Чтобы собрать
+                        7 стрел бога любви Амура и разыскать подарок, игроку
+                        нужно выполнить задания древних богов.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 card_image-block">
+                    <img
+                      src="./image/card-bg.png"
+                      alt=""
+                      class="img rounded-start card_image"
+                    />
+                    <!-- mobile image -->
+                    <span class="rounded mobile-badge"> самый популярный </span>
+                    <img
+                      src="./image/card-image-mobile.png"
+                      alt=""
+                      class="img rounded-start card-image-mobile"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card_buy rounded">
+                <div class="buy_block">
+                  <p class="text-center buy_block-text">Принимаем к оплате</p>
+                  <div class="buy_block-images d-flex">
+                    <img src="./image/sber-icon.svg" alt="" />
+                    <img src="./image/mastercard-icon.svg" alt="" />
+                    <img src="./image/visa-icon.svg" alt="" />
+                    <img src="./image/mir-icon.svg" alt="" />
+                  </div>
+                </div>
+                <p class="buy_text text-center">
+                  Я из другой страны —
+                  <a class="buy_link" href="#">как оплатить?</a> 
+                </p>
+                <button
+                  class="btn btn-orange btn_buy d-flex justify-content-between"
+                >
+                  <span> Купить квест </span>
+                  <span> 500 ₽ </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container">
+            <div class="row mb-4">
+              <h2 class="review_title position-relative">
+                Отзывы клиентов
+                <span class="position-absolute review_badge"> 182 </span>
+              </h2>
+            </div>
+            <div class="reviews_row">
+              <div class="col-md-3 col-12">
+                <div class="card card_reviews">
+                  <div class="card-body review-card_body">
+                    <span class="card_date"> 14 февраля 2024 </span>
+                    <p class="card_name">Константин (12 игроков 36-50 лет)</p>
+                    <img
+                      src="./image/stars-icon.svg"
+                      alt=""
+                      class="card_stars"
+                    />
+                    <h5 class="card-title review-card_title">
+                      День святого Валентина
+                    </h5>
+                    <p class="card-text">
+                      Понравилось, что вопросы хоть и объединены одной темой,
+                      были не похожи друг на друга. Разные страны и эпохи — есть
+                      где разгуляться фантазии. И если сначала мы пытались
+                      искать правильные ответы, то по ходу игры стало интереснее
+                      и смешнее запутать других игроков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-12">
+                <div class="card card_reviews">
+                  <div class="card-body review-card_body">
+                    <span class="card_date"> 14 февраля 2024 </span>
+                    <p class="card_name pt-2">Светлана (2 игрока 36 лет)</p>
+                    <img
+                      src="./image/stars-icon.svg"
+                      alt=""
+                      class="card_stars"
+                    />
+                    <h5 class="card-title review-card_title mb-4">День Рождения</h5>
+                    <p class="card-text">
+                      Понравилось, что вопросы хоть и объединены одной темой,
+                      были не похожи друг на друга. Разные страны и эпохи — есть
+                      где разгуляться фантазии. И если сначала мы пытались
+                      искать правильные ответы, то по ходу игры стало интереснее
+                      и смешнее запутать других игроков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-12">
+                <div class="card card_reviews">
+                  <div class="card-body review-card_body">
+                    <span class="card_date"> 14 февраля 2024 </span>
+                    <p class="card_name pt-2">Светлана (2 игрока 36 лет)</p>
+                    <img
+                      src="./image/stars-icon.svg"
+                      alt=""
+                      class="card_stars"
+                    />
+                    <h5 class="card-title review-card_title mb-4">День Рождения</h5>
+                    <p class="card-text">
+                      Понравилось, что вопросы хоть и объединены одной темой,
+                      были не похожи друг на друга. Разные страны и эпохи — есть
+                      где разгуляться фантазии. И если сначала мы пытались
+                      искать правильные ответы, то по ходу игры стало интереснее
+                      и смешнее запутать других игроков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-12">
+                <div class="card card_reviews">
+                  <div class="card-body review-card_body">
+                    <span class="card_date"> 14 февраля 2024 </span>
+                    <p class="card_name pt-2">Светлана (2 игрока 36 лет)</p>
+                    <img
+                      src="./image/stars-icon.svg"
+                      alt=""
+                      class="card_stars"
+                    />
+                    <h5 class="card-title review-card_title mb-4">День Рождения</h5>
+                    <p class="card-text">
+                      Понравилось, что вопросы хоть и объединены одной темой,
+                      были не похожи друг на друга. Разные страны и эпохи — есть
+                      где разгуляться фантазии. И если сначала мы пытались
+                      искать правильные ответы, то по ходу игры стало интереснее
+                      и смешнее запутать других игроков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="card card_reviews">
+                  <div class="card-body review-card_body">
+                    <span class="card_date"> 14 февраля 2024 </span>
+                    <p class="card_name pt-2">Светлана (2 игрока 36 лет)</p>
+                    <img
+                      src="./image/stars-icon.svg"
+                      alt=""
+                      class="card_stars"
+                    />
+                    <h5 class="card-title review-card_title mb-4">День Рождения</h5>
+                    <p class="card-text">
+                      Понравилось, что вопросы хоть и объединены одной темой,
+                      были не похожи друг на друга. Разные страны и эпохи — есть
+                      где разгуляться фантазии. И если сначала мы пытались
+                      искать правильные ответы, то по ходу игры стало интереснее
+                      и смешнее запутать других игроков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="btn btn_reviews btn-orange">
+              Смотреть все отзывы
+            </button>
+            <button class="btn btn-orange d-lg-none d-md-none btn_buy">
+            <span>
+              Купить квест
+            </span>
+            <span>
+              500 ₽
+            </span>
+          </button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
